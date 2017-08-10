@@ -2,7 +2,7 @@
 
 > Tiny pomodoro app built with React.js
 
-![Screenshot](https://raw.githubusercontent.com/OlegWock/pomoapp/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/OlegWock/pomoapp/master/screen.png)
 
 ## Features
 
