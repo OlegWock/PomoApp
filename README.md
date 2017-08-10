@@ -6,7 +6,7 @@
 
 ## Features
 
-* Statistic per task: succesful pomodoros and failed pomodoros.
+* Statistic per task: succesful pomodoros and failed pomodoros
 
 * Daily statistics 
 
@@ -20,16 +20,22 @@ Yes, [here](http://olegwock.github.io/pomodoroapp/) it is.
 
 Please, fork this repo, implent your feature and make pull request. 
 
+First of all, install all dependencies:
+
+```
+npm install
+```
+
 Webpack is configured to run dev server with autoreload. Run it by 
 
 ```
-npm start
+npm start       #or webpack-dev-server --hot
 ```
 
 Or build production `index.js` file by 
 
 ```
-npm build # or webpack -p
+npm build       #or webpack -p
 ```
 
 Licensed under MIT.
