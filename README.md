@@ -2,6 +2,8 @@
 
 > Tiny pomodoro app built with React.js
 
+![Screenshot](https://raw.githubusercontent.com/OlegWock/pomoapp/master/screenshot.jpg)
+
 ## Features
 
 * Statistic per task: succesful pomodoros and failed pomodoros.
