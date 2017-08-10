@@ -29,3 +29,5 @@ Or build production `index.js` file by
 ```
 npm build # or webpack -p
 ```
+
+Licensed under MIT.
