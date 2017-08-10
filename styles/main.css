@@ -1,0 +1,85 @@
+.icon_edit {
+    margin-left: auto;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.icon_reset {
+    cursor: pointer;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.task_container {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin: 10px 10px;
+}
+
+.app {
+    width: 820px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 59px -4px rgba(120,120,120,0.8);
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: 8px;
+}
+
+.task_heading {
+    margin: 0;
+    margin-top: 1px;
+    font-size: inherit;
+    font-weight: inherit
+}
+
+.task_input {
+    width: 100%;
+    font-size: inherit;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    transition: 1s linear;
+    font-family: inherit
+}
+
+.task_input:focus {
+    border-bottom: 1px solid #000;
+}
+
+.stats {
+    display: flex;
+    font-size: 26px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 5px;
+    align-items: center;
+
+}
+
+.stat {
+    flex-grow: 1;
+}
+
+.autocomplete_item {
+    padding: 4px;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.autocomplete_item_active {
+    padding: 4px;
+    cursor: pointer;
+    color: black;
+    background-color: #dddddd;
+}

@@ -1,0 +1,48 @@
+.timer {
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.nums {
+    font-size: 64px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-weight: inherit;
+}
+
+.button {
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: 24px;
+    cursor: pointer
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+}
+
+.svg {
+    transform: rotate(-90deg);
+}
+
+.circle {
+    stroke-dasharray: 566;
+    transition: all 0.25s linear
+}
+
+.circle_container {
+    position: relative
+}
+
+.text {
+    font-weight: inherit;
+    margin: 8px;
+}
