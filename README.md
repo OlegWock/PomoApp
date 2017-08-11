@@ -16,9 +16,9 @@
 
 Yes, [here](http://olegwock.github.io/pomodoroapp/) it is.
 
-## I like it and have a nice feature to implent
+## I like it and have a nice feature to implement
 
-Please, fork this repo, implent your feature and make pull request. 
+Please, fork this repo, implement your feature and make pull request. 
 
 First of all, install all dependencies:
 
