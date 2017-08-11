@@ -29,13 +29,27 @@ npm install
 Webpack is configured to run dev server with autoreload. Run it by 
 
 ```
-npm start       #or webpack-dev-server --hot
+npm start
 ```
 
-Or build production `index.js` file by 
+You also can use gulp (but in this case autoreload will not work).
 
 ```
-npm build       #or webpack -p
+gulp watch 
+# or just 
+gulp
+```
+
+Build app:
+
+```
+gulp build
+```
+
+Also gulp has task to build chrome extension:
+
+```
+gulp build:extension
 ```
 
 Licensed under MIT.
